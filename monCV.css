@@ -1,0 +1,77 @@
+
+/* style du corps de la page */
+body{
+  background-image: url(abstract-3d-white-floral-on-gray-background-vector-illustration-694x417.jpg);
+  margin: 5%;
+  font-size: 120%;
+}
+
+/* style du contenu du corps de la page */
+.container{
+    margin-left: 12%;
+    margin-right: 12%;
+    border-radius: 1%;
+    box-shadow: 8px 8px 8px #aaa;
+    background-color: whitesmoke;
+    padding: 5%;
+
+}
+
+/* style de la photo */
+.photo{
+  float: right;
+  margin-top: -12%;
+  margin-right: 3%;
+  width:30%;
+  height:30%;
+  border-radius: 5%;
+  box-shadow: 8px 8px 8px #aaa;
+  display: inline-block;
+
+}
+
+.text{
+
+  margin-top: 10%;
+  display: inline-block;
+}
+
+.inside{
+  width: auto;
+  display: inline-block;
+}
+
+.Experience{
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.Competences{
+  width: auto;
+ display: inline-block;
+ float: right;
+}
+
+.Formation{
+  width: auto;
+  display: inline-block;
+  float: left;
+}
+
+
+@media screen and (max-width: 800px)
+{
+    body{
+      font-family: cursive;
+      background-image: url(thumb_COLOURBOX3603792.jpg);
+    }
+    .container{
+      background-color: #dce0e8;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+}
